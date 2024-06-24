@@ -1,0 +1,172 @@
+<html>
+<head>
+	<style>
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		font-family: Arial;
+		padding: 10px;
+		background: #f1f1f1;
+	}
+
+	/* Header/Blog Title */
+	.header {
+		padding: 30px;
+		text-align: center;
+		background-image: url(gambar1.png);
+	}
+
+	.header h1 {
+		font-size: 50px;
+	}
+
+	/* Style the top navigation bar */
+	.topnav {
+		overflow: hidden;
+		background-color: #333;
+	}
+
+	/* Style the topnav link */
+	.topnav a{
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	/* Change color on hover */
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	} 
+
+	/* Create two u unequal columns that floats next to each other */
+	/* Left column */
+	.leftcolum {
+		float: left;
+		width: 75%;
+	}  
+
+	/* Right column */
+	.rightcolum {
+		float: left;
+		width: 25%;
+		background-color: #f1f1f1;
+		padding-left: 20px;
+	}
+
+	/* Fake image */
+	.fakeimg {
+		background-color: #aaa;
+		width: 100%;
+		padding: 20px;
+	}
+
+	/* Add a card effect for articles */
+	.card {
+		background-color: white;
+		padding: 20px;
+		margin-top: 20px;
+	}
+
+	/* clear float after the columns */
+	.row::after {
+		content:  "";
+		display: table;
+		clear: both;
+	}
+
+	/* Footer */
+	.footer {
+		padding: 20px;
+		text-align: center;
+		background: #ddd;
+		margin-top: 20px;
+	}
+
+	/* Responsive layout - when the screen is less than 800px wide, make the twocolumns stack on top of each other instead of next to each  other */
+	@media screen and (max-width: 800px) {
+		.leftcolum, .rightcolum {
+			width: 100%;
+			padding: 0;
+		}
+	}
+	
+	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+	@media screen and (max-width: 400px) {
+		.topnav a {
+			float: none;
+			width: 100px;
+		}
+	}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>OLAHRAGA</h1>
+<p>Gerakan Tubuhmu</p>
+</div>
+
+<div class="topnav">
+	<a href="hidupsehat.html">HOME</a>
+	<a href="olahraga.html">OLAHRAGA</a>
+	<a href="makanan.html">MAKANAN</a>
+	
+</div> 
+
+<div class="row">
+	<div class="leftcolum">
+		<div class="card">
+			<h2>JOGING</h2>
+			<h5>Joging secara teratur akan membuat tubuh memiliki respons yang lebih baik terhadap penyakit dan gangguan kesehatan.</h5>
+		<img src="jogingq.jpg"width="100%"> 
+			<p></p>
+			<p>Joging secara teratur akan membuat tubuh memiliki respons yang lebih baik terhadap penyakit dan gangguan kesehatan. Aktivitas ini juga merangsang produksi sel darah putih yang membantu melawan infeksi bakteri dan virus. Intinya, joging secara konsisten akan membuat tubuh Anda tetap bugar dan tidak mudah sakit.</p>
+		</div>
+		
+			<h2>BERENANG</h2>
+			<h5></h5>
+			<img src="hd2.webp"width="100%">
+			<p>Manfaat</p>
+			<p></p>
+			<p>Berenang adalah olahraga yang baik untuk semua orang di segala usia. Berenang membantu seseorang untuk tetap bugar dan menjaga kesehatan fisik, juga berdampak baik bagi kesehatan menta<<div class="card">
+		</div>
+	
+		
+	</div>
+	<div class="rightcolum">
+	<div class="card">
+		<h2>VOLLEYBALL</h2>
+		<img src="POLI.jpg"width="150%">
+		
+	</div>
+	<div class="card">
+		<h3>SEPAK BOLA</h3>
+		
+		<img src="sepakbola.jpg"width="400">
+	</div>
+	<div class="card">
+
+	</div>		
+	</div>
+  <div class="card">
+		<h3>Follow Me</h3>
+		<img src="ig.jpg">
+		<P>HRDNSYH_6</P>
+	</div>
+</div>
+
+
+
+<div class="footer">
+<h2>@<b>COPPYRIGHT2024.HRDNSYH_6</b></h2>
+</div>
+
+
+</body>
+</html>
